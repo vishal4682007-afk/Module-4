@@ -11,12 +11,12 @@ To write a Python program that handles an **IndexError** when trying to access a
 3. Print the result based on whether the index access succeeds or fails.
 
 ## 🧾 Program
-lst = [1,4,8,9,10,5]
-try :
-    index = int(input("Enter a index : "))
-    print("Th Element in the given index is ",lst[index])
-except :
-    print("You're out of list range")
+      lst = [1,4,8,9,10,5]
+      try :
+          index = int(input("Enter a index : "))
+          print("Th Element in the given index is ",lst[index])
+      except :
+          print("You're out of list range")
 
 ## Output
 <img width="1918" height="470" alt="image" src="https://github.com/user-attachments/assets/69c071e4-fcfe-4a20-93d6-8f834248b143" />
